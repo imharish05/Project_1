@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loazzne - Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=account_balance_wallet" />
+    <link rel="stylesheet" href="./blog.css" />
+</head>
+
+<body>
+   <!-- Header -->
+   <header>
+    <div class="nav1">
+        <div class="addbar">
+            <div class="brands">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="address">
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Address</h3>
+                    <p>66 Broklyn Street, New York</p>
+                </div>
+                <div class="phone">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <h3>Call Now</h3>
+                    <a href="tel:666888000">666 888 000</a>
+                </div>
+                <div class="clock">
+                    <i class="fa-regular fa-clock"></i>
+                    <h3>Open Hours</h3>
+                    <a href="#">Mon-Sat: 9am - 6pm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Navigation -->
+<nav>
+    <div class="nav2">
+        <div class="logo">
+            <img src="./images/logo.webp" alt="Loazzne-Logo" />
+        </div>
+        <div class="list">
+            <ul>
+                <li>
+                    <a href="index.html" >Home</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                    <ul>
+                        <li><a href="index.html" >Home 1</a></li>
+                        <li><a href="index-2.html">Home 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li>
+                    <a href="service.html">Services</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                    <ul>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Service Details</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="blog.html" class="active">Blog</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                    <ul>
+                        <li><a href="#" class="active">Blog</a></li>
+                        <li><a href="#">Blog Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <button>BOOK TODAY</button>
+        <i class="fa-solid fa-bars" onclick="menu()"></i>
+    </div>
+    <div class="sidebar" onclick="add2()" id="close">
+        <div class="head">
+            <h1>LOAZZNE</h1>
+            <i class="fa-solid fa-x" id="hide"></i>
+        </div>
+        <div class="drop">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                    <!-- <i class="fa-solid fa-angle-down"></i> -->
+                    <ul>
+                        <li><a href="index.html">Home 1</a></li>
+                        <li><a href="index-2.html">Home 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li>
+                    <a href="service.html">Services</a>
+                    <!-- <i class="fa-solid fa-angle-down"></i> -->
+                    <ul>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Service Details</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="blog.html" class="active">Blog</a>
+                    <!-- <i class="fa-solid fa-angle-down"></i> -->
+                    <ul>
+                        <li><a href="#" class="active">Blog</a></li>
+                        <li><a href="#">Blog Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="para">
+            <p>
+                Loazzne is a modern & professional NextJS Template for air conditioning, cooling/heating, HVAC and
+                ventilation services. It is also very good for any other home repair, services and maintenance
+                businesses.</p>
+        </div>
+        <div class="social">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </div>
+</nav>
+
+        <!-- Page 1 -->
+
+        <div class="page1">
+            <div class="col">
+                <h2>Home - Blog</h2>
+                <h1>Blog Grid</h1>
+            </div>
+        </div>
+
+            <!-- page2 -->
+    <div class="page2">
+
+        <div class="col container-">
+            <div class="rows row1">
+                <div class="row-img img1">
+                    <img src="./images/blog-1.webp" alt="">
+                    <div class="date">
+                        <p>07 Nov</p>
+                    </div>
+
+                </div>
+                <div class="row-para para1">
+                    <div class="row-anchor1">
+                        <p>by</p>
+                        <a href="#">admin</a>
+                        <a href="#">-3 Comments</a>
+                    </div>
+                    <div class="head-anchor1">
+                        <a href="#">How does a ductless heat pump work?</a>
+                    </div>
+                    <p class="p-blog">There are many variations passages of lorem ipsum available but the majority have
+                        suffered alteration.</p>
+                </div>
+            </div>
+
+
+            <div class="rows row2">
+                <div class="row-img img2">
+                    <img src="./images/blog-2.webp" alt="">
+                    <div class="date">
+                        <p>07 Nov</p>
+                    </div>
+                </div>
+                <div class="row-para para2">
+                    <div class="row-anchor2">
+                        <p>by</p>
+                        <a href="#">admin</a>
+                        <a href="#">-3 Comments</a>
+                    </div>
+                    <div class="head-anchor2">
+                        <a href="#">Simple hack to improve A/C efficiency</a>
+                    </div>
+                    <p class="p-blog">There are many variations passages of lorem ipsum available but the majority have
+                        suffered alteration. </p>
+                </div>
+            </div>
+
+
+            <div class="rows row3">
+                <div class="row-img img3">
+                    <img src="./images/blog-3.webp" alt="">
+                    <div class="date">
+                        <p>07 Nov</p>
+                    </div>
+                </div>
+                <div class="row-para para3">
+                    <div class="row-anchor3">
+                        <p>by</p>
+                        <a href="#">admin</a>
+                        <a href="#">-3 Comments</a>
+                    </div>
+                    <div class="head-anchor3">
+                        <a href="#">Preparing your home before vaction</a>
+                    </div>
+                    <p class="p-blog">There are many variations passages of lorem ipsum available but the majority have
+                        suffered alteration.</p>
+                </div>
+            </div>
+
+            <div class="rows row4">
+                <div class="row-img img4">
+                    <img src="./images/blog/image-1" alt="">
+                    <div class="date">
+                        <p>07 Nov</p>
+                    </div>
+
+                </div>
+                <div class="row-para para4">
+                    <div class="row-anchor4">
+                        <p>by</p>
+                        <a href="#">admin</a>
+                        <a href="#">-3 Comments</a>
+                    </div>
+                    <div class="head-anchor4">
+                        <a href="#">How does a ductless heat pump work?</a>
+                    </div>
+                    <p class="p-blog">There are many variations passages of lorem ipsum available but the majority have
+                        suffered alteration.</p>
+                </div>
+            </div>
+
+
+            <div class="rows row5">
+                <div class="row-img img5">
+                    <img src="./images/blog/image-2" alt="">
+                    <div class="date">
+                        <p>07 Nov</p>
+                    </div>
+                </div>
+                <div class="row-para para5">
+                    <div class="row-anchor5">
+                        <p>by</p>
+                        <a href="#">admin</a>
+                        <a href="#">-3 Comments</a>
+                    </div>
+                    <div class="head-anchor5">
+                        <a href="#">Simple hack to improve A/C efficiency</a>
+                    </div>
+                    <p class="p-blog">There are many variations passages of lorem ipsum available but the majority have
+                        suffered alteration. </p>
+                </div>
+            </div>
+
+
+            <div class="rows row6">
+                <div class="row-img img6">
+                    <img src="./images/blog/imag-3" alt="">
+                    <div class="date">
+                        <p>07 Nov</p>
+                    </div>
+                </div>
+                <div class="row-para para6">
+                    <div class="row-anchor6">
+                        <p>by</p>
+                        <a href="#">admin</a>
+                        <a href="#">-3 Comments</a>
+                    </div>
+                    <div class="head-anchor6">
+                        <a href="#">Preparing your home before vaction</a>
+                    </div>
+                    <p class="p-blog">There are many variations passages of lorem ipsum available but the majority have
+                        suffered alteration.</p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+    <footer>
+        <img src="./images/footer-shape.png" alt="">
+        <div class="footer-addbar">
+            <div class="footer-location">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Address</h3>
+                <p>66 Broklyn Street, New York</p>
+            </div>
+            <div class="footer-mail">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Email</h3>
+                <p>help@loazzne.com</p>
+            </div>
+            <div class="footer-clock">
+                <i class="fa-regular fa-clock"></i>
+                <h3>Open Hours</h3>
+                <p>Mon-Sat: 9am - 6pm</p>
+            </div>
+        </div>
+        <div class="footer-links">
+            <div class="about">
+                <h2>About Loazzne</h2>
+                <p>At Lennom, We don’t just provide resi-dential and commercial heating and air conditioning services;
+                    we make people’s lives easier. Better.</p>
+                    <div class="quote">
+                        <h3>Get a Quote</h3>
+                        <h1>666 888 000</h1>
+                    </div>
+                
+            </div>
+            <div class="quick_links">
+                <h2>Quick Links</h2>
+                <div class="footer-rows">
+                <div class="col-col1">
+                    <ul>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Request Appointment</a></li>
+                        <li><a href="#">Site Map</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-col2">
+                    <ul>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Change Location</a></li>
+                        <li><a href="#">Expert Tips</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            <div class="news-letter">
+                <h2>Newsletter</h2>
+                <div class="footer-form">
+                    <input type="email" name="User-email" id="footer-user-email" placeholder="Enter your email">
+                    <button>SUBSCRIBE</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-copy">
+            <div class="copy">
+                &copy; <p>copyright 2025 by Layerdrops.com</p>
+            </div>
+            <div class="footer-brands">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body> 
+</html>
